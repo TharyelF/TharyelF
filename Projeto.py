@@ -1,17 +1,21 @@
-# O Inicio
 
-print('Salve cambada de newba!')
-print('Salve')
-print('Salvados')
-print("Python é a melhor linguagem") 
+#  string concatenation (aka how to ptu strings together)
+# suppouse we want to create a string that says "subscribe to ___________"
+#youtuber = "Tharyel Faria" # some string variable
 
-# Matematica Básica
+# a few ways to do this
+#print("subscribe to " + youtuber)
+#print("subscribe to {}".format(youtuber))
+#print(f"subscribe to {youtuber}")
 
-print(1000+10)
-print((2*7)+3)
-print(10*(8-2))
-print(4/(12+6))
-print(68*2)
-print((4+8)/2)
-print (3/4)
-print(0.42)
+
+adj = input("adjective: ")
+verb1 = input("Verb: ")
+verb2 = input("Verb: ")
+famous_person = input("Famous person: ")
+
+
+madlib = f"Programar é muito {adj}! Me deixa muito animado em descobrir novas coisas \
+Eu vivo para {verb1}. Fique bem e {verb2} bastante coca igual {famous_person}!"
+
+print(madlib)
