@@ -13,6 +13,5 @@ print(10*(8-2))
 print(4/(12+6))
 print(68*2)
 print((4+8)/2)
-
 print (3/4)
 print(0.42)
