@@ -21,7 +21,7 @@ def computer_guess(x):
              guess = random.randint(low, high) 
         else:
              guess = low # Tambem pod ser  high b/c low = high /        
-        feedback = input(f'Is {guess} Muito alto (H), Muito baixo (L) or Correto (C)?? ').lower()
+        feedback = input(f'Seria {guess} Muito alto (H), Muito baixo (L) or Correto (C)?? ').lower()
         if feedback =='H':
             high = guess - 1
         elif feedback == 'l':
